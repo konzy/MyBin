@@ -1,0 +1,4 @@
+#!/bin/bash
+# gets external ip address
+curl ident.me
+echo ""
