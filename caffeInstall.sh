@@ -14,11 +14,4 @@ echo "clone caffe"
 git clone https://github.com/BVLC/caffe.git
 cd caffe
 cat python/requirements.txt | xargs -L 1 sudo pip install
-mkdir build
-cd build
-cmake ..
-make all
-make runtest
-cd ~
-echo 'export CAFFE_ROOT=~/Programming/caffe' >> .bashrc
-source .bashrc
+
